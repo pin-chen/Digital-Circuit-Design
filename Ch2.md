@@ -82,6 +82,8 @@ CMOS: complementary MOS (power)
 - Power dissipation: the power drawn from the power supply and consumed by the gate
 > must be considered in relation to the operating temperature and cooling
 
+- Standard Lord (SL) means how many output needed to apply by a gate.
+
 ![](https://i.imgur.com/YeCKE7h.png)
 
 $Answer = 0.04+0.012\cdot1\\
