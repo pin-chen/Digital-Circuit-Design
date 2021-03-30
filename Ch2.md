@@ -11,6 +11,7 @@ The basic proof way.
 
 ## Algebraic Manipulation
 Term: $wx+yz$ have two terms$\{wx, yz\}$
+
 Literal: a primed or unprimed variable $\{w,x,y,z\}$
 
 ### Complement of a Function
@@ -63,8 +64,11 @@ Low vote be 1
 - VLSI: > 1000 gates
 ### Digital logic families: ckt technology
 TTL: transistor-transistor logic
+
 ECL: emitter-coupled logic (speed)
+
 MOS: metal-oxide semiconductor (density)
+
 CMOS: complementary MOS (power)
 > The basic ckt in each family is a NAND, NOR, or inverter gate. (Ch3)
 
@@ -77,3 +81,15 @@ CMOS: complementary MOS (power)
 > The operating speed of a ckt is inversely related to the longest propagation delays through the gates of the ckt.
 - Power dissipation: the power drawn from the power supply and consumed by the gate
 > must be considered in relation to the operating temperature and cooling
+
+![](https://i.imgur.com/YeCKE7h.png)
+
+$Answer = 0.04+0.012\cdot1\\
+\quad\quad\quad\quad+0.05+0.014\cdot(1+1)\\
+\quad\quad\quad\quad+0.04+0.012\cdot0.95\\
+\quad\quad\quad\quad+0.15+0.012\cdot1\\
+\quad\quad\quad\quad+0.05+0.014\cdot SL$
+
+Sum of all next gate Inpute load is SL.
+
+Last gate's SL is not known.
