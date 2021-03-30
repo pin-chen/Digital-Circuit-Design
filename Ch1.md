@@ -20,11 +20,25 @@ tags: 數位電路設計, 資工系必修
 - 順序如圖
 
 ## Unsigned Binary Number Complement
-...
-
+- 1's complement
+    Turn all bit 0 to 1 and 1 to 0. 
+- 2's complement
+    1's complent + $1\cdot2^0$.
+- Unsigned Binary Subtraction by (r−1)’s Complement Addition
+- Unsigned Binary Subtraction by r’s Complement Addition
 ## Signed Binary Number
-...
-
+- Singed-magnitude
+    - Range: $2^{n-1}-1 \sim -(2^{n-1}-1)$
+    - Def the largest bit be sign bit.
+        > Sign bit = 0 for postive numbers
+        > Sign bit = 1 for negative numbers
+    - The negative number is same as postive number except sign bit.
+- Signed-1's complement
+    - Range: $2^{n-1}-1 \sim -(2^{n-1}-1)$
+    - The negative number is the postive number's 1's complenment.
+- Signed-2's complement
+    - Range: $2^{n-1}-1 \sim -2^{n-1}$
+    - The negative number is the postive number's 2's complenment.
 ## Overflow
 **兩數以二進制相加，取其最高兩位元的進位做XOR，若運算結果為0表示無溢位，為1則產生溢位。**
 ![](https://imgur.com/McO7oBY.jpg)
@@ -42,6 +56,7 @@ For example: ASCII
 
 #### Gray Code
 000, 001, 011, 010 ...
+
 只差一位元的編碼，可降低運算過程中造成的轉換錯誤。
 
 #### Error-Detecting Code
