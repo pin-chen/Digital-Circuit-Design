@@ -13,4 +13,4 @@ tags: 數位電路設計, 資工系必修
 
 [Ch3-9 Hardware Description Language](https://hackmd.io/@pinchen/DigitalCircuitDesignCh3-9)
 
-[Ch4 ](https://hackmd.io/@pinchen/DigitalCircuitDesignCh4)
+[Ch4 Combinational Logic](https://hackmd.io/@pinchen/DigitalCircuitDesignCh4)
