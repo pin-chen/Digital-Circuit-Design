@@ -80,8 +80,36 @@ $0+1=0\quad 1$
 $1+0=0\quad 1$
 
 $1+1=1\quad 1$
+
+$x+y=C\quad S$
+
+Step 2: Truth table
+
+Step 3: S
 - Full adder: add 2 input bits and a carry-in bit
-- Binary ripple carry adder: add two n-bit binary numbers
+$x+y+z=S\quad C$
+
+$x+y=S_1\quad C_1$
+
+$S_1+z=S\quad C_2$
+
+$C_1\lor C_2=C$
+
+- Binary ripple carry adder: add two $n$-bit binary numbers
+    
+    一起給n個bit
+
+    - Design method:
+    
+        - hierachical design
+            $n$個Full adder疊出$n$-bit adder
+            
+            Propagation delay: 2n+2 gate delays
+        - iterative design
 - Carry-lookaheadadder
+
+
 - Binary subtractor
+
+
 - Binary adder-subtractor
