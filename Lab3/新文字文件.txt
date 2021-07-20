@@ -1,0 +1,22 @@
+
+iverilog -o t_Lab3_SbRb_Latch_gatelevel.vvp t_Lab3_SbRb_Latch_gatelevel.v Lab3_SbRb_Latch_gatelevel.v
+
+vvp t_Lab3_SbRb_Latch_gatelevel.vvp
+
+gtkwave t_Lab3_SbRb_Latch_gatelevel.vcd
+
+
+iverilog -o t_Lab3_PE_Dff_gatelevel.vvp t_Lab3_PE_Dff_gatelevel.v Lab3_PE_Dff_gatelevel.v Lab3_SbRb_Latch_gatelevel.v
+
+vvp t_Lab3_PE_Dff_gatelevel.vvp
+
+gtkwave t_Lab3_PE_Dff_gatelevel.vcd
+
+
+iverilog -o t_Lab3_Sequence_Recognizer.vvp t_Lab3_Sequence_Recognizer.v Lab3_Sequence_Recognizer_state_diagram.v Lab3_Sequence_Recognizer_structure.v D_ff_AR.v
+
+vvp t_Lab3_Sequence_Recognizer.vvp
+
+gtkwave t_Lab3_Sequence_Recognizer.vcd
+
+

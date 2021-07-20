@@ -1,0 +1,25 @@
+
+iverilog -o t_Lab2_4_bit_sub.vvp t_Lab2_4_bit_sub.v Lab2_4_bit_RBS.v Lab2_full_sub.v Lab2_half_sub_gatelevel.v  Lab2_4_bit_BLS_gatelevel.v Lab2_4_bit_BLS_dataflow.v Lab2_4_bit_BLS_behavioral.v
+
+vvp t_Lab2_4_bit_sub.vvp
+
+gtkwave t_Lab2_4_bit_sub.vcd
+
+iverilog -o t_Lab2_full_sub.vvp t_Lab2_full_sub.v Lab2_full_sub.v Lab2_half_sub_gatelevel.v
+
+vvp t_Lab2_full_sub.vvp
+
+gtkwave t_Lab2_full_sub.vcd
+
+
+iverilog -o t_Lab2_half_sub.vvp t_Lab2_half_sub.v Lab2_half_sub_gatelevel.v
+
+vvp t_Lab2_half_sub.vvp
+
+gtkwave t_Lab2_half_sub.vcd
+
+iverilog -o t_Lab2_encoder_5bit.vvp t_Lab2_encoder_5bit.v Lab2_encoder_5bit_gate_level.v Lab2_encoder_5bit_dataflow.v Lab2_encoder_5bit_behavior.v
+
+vvp t_Lab2_encoder_5bit.vvp
+
+gtkwave t_Lab2_encoder_5bit.vcd

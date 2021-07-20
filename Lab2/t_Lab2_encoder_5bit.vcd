@@ -1,0 +1,144 @@
+$date
+	Sun May 09 16:37:09 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module t_Lab2_encoder_5bit $end
+$var wire 1 ! V_gatelevel $end
+$var wire 1 " V_dataflow $end
+$var wire 1 # V_behavior $end
+$var wire 3 $ A_gatelevel [2:0] $end
+$var wire 3 % A_dataflow [2:0] $end
+$var wire 3 & A_behavior [2:0] $end
+$var reg 5 ' D [0:4] $end
+$scope module M1 $end
+$var wire 1 ( A0_1 $end
+$var wire 1 ) A0_2 $end
+$var wire 1 * A1_1 $end
+$var wire 1 + A1_2 $end
+$var wire 5 , D [0:4] $end
+$var wire 1 ! V $end
+$var wire 5 - _D [0:4] $end
+$var wire 3 . A [2:0] $end
+$upscope $end
+$scope module M2 $end
+$var wire 5 / D [0:4] $end
+$var wire 1 " V $end
+$var wire 3 0 A [2:0] $end
+$upscope $end
+$scope module M3 $end
+$var wire 5 1 D [0:4] $end
+$var reg 3 2 A [2:0] $end
+$var reg 1 # V $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 2
+b0 1
+b0 0
+b0 /
+b0 .
+b11111 -
+b0 ,
+0+
+0*
+0)
+0(
+b0 '
+b0 &
+b0 %
+b0 $
+0#
+0"
+0!
+$end
+#50
+1!
+b100 $
+b100 .
+b11110 -
+b100 &
+b100 2
+1#
+1"
+b100 %
+b100 0
+b1 '
+b1 ,
+b1 /
+b1 1
+#100
+b11 $
+b11 .
+b11100 -
+1+
+1)
+b11 &
+b11 2
+b11 %
+b11 0
+b11 '
+b11 ,
+b11 /
+b11 1
+#150
+b10 $
+b10 .
+b10 %
+b10 0
+0)
+b11001 -
+1*
+b10 &
+b10 2
+b110 '
+b110 ,
+b110 /
+b110 1
+#200
+b1 $
+b1 .
+b1 %
+b1 0
+b10110 -
+0*
+0+
+1(
+b1 &
+b1 2
+b1001 '
+b1001 ,
+b1001 /
+b1001 1
+#250
+b10010 -
+b1101 '
+b1101 ,
+b1101 /
+b1101 1
+#300
+b0 $
+b0 .
+b0 %
+b0 0
+b1001 -
+0(
+b0 &
+b0 2
+b10110 '
+b10110 ,
+b10110 /
+b10110 1
+#350
+b101 -
+b11010 '
+b11010 ,
+b11010 /
+b11010 1
+#400
