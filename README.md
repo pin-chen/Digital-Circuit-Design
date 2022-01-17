@@ -1,9 +1,9 @@
 ---
 tags: 數位電路設計, 資工系必修
 ---
-# 數位電路設計共同筆記
-## 109學年下學期
-單智君
+# Digital Circuit Design
+
+1092 單智君
 
 [CH1 Digital Systems and Binary Numbers](https://hackmd.io/@pinchen/DigitalCircuitDesignCh1)
 
