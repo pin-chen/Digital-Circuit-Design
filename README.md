@@ -1,5 +1,5 @@
 ---
-tags: 數位電路設計, 資工系必修
+tags: 數位電路設計, 資工系必修, NCTU, NYCU
 ---
 # Digital Circuit Design
 
